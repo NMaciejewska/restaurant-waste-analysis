@@ -1,0 +1,14 @@
+#[build-system]
+#requires = ["setuptools"]
+#build-backend = "setuptools.build_meta"
+#
+#[project]
+#name = "restaurant-waste-analysis"
+#version = "0.0.1"
+#requires-python = ">=3.12"
+#
+#[tool.setuptools.packages.find]
+#where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
